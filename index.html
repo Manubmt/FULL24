@@ -1,0 +1,47 @@
+
+<html>
+	<head>
+		<title>
+		MPVV
+		</title>
+		<style>
+			.rojo {
+				color: #ccff33
+			font-wcight:bold;
+		</style>
+	</head>
+
+	<body>
+<nav>
+<ul>
+	<li><a href="#formaulario"> formulario </a> </li>
+	<li><a href="#verimg"> imagen-1</a></li>
+	<li><a href="#verimg2"> imagen-2</a></li>
+	<li><a href="#articulo"> articulo </a></li>
+</ul>
+</nav>
+
+	<section id="formulario">
+		<form action="/login/auth" method="post">
+			<label class"rojo" for="usuario"> usuario: </label>
+			<input type="text" id="usuario" name="usuario"><br><br>
+			<label for="correo"> correo: </label>
+			<input type="email" id="correo" name="correo"><br><br>
+			<label for="contraseña"> Contraseña: </label>
+			<input type="password" id="contraseña" name="contraseña"><br><br>
+			<label for="msg"> Mensaje: </label>
+			<textarea id="msg" name="msg" cols="50" rows="4"></textarea><br><br>
+
+			<labe for="tipe"> Identificacion </label><br>
+			<input type="checkbox" name="tipide" Value="CC"> Cedula de ciudadania<br> 
+ 			
+
+
+			<input type="submit" value="Enviar"><br><br>
+				<a href="#"> inicio</a>
+
+			</form>
+		</section>
+</body>
+
+</html>
